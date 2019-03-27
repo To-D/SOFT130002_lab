@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #1b2838;
+    color: #acb2b8
+}
+
+header {
+    color: #b8b6b4;
+    height: 10%;
+    background-color: #171a21;
+    display: flex;
+    text-align: center;
+}
+
+nav {
+    margin: auto 3em;
+}
+
+li {
+    display: inline-block;
+}
+
+nav li {
+    padding: 0 1em;
+}
+
+a {
+    color: #b8b6b4;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #87bff2;
+}
+
+nav li a {
+    color: #b8b6b4;
+}
+
+aside {
+    float:right;
+    margin: 1% 5%;
+    width: 30%;
+    background-color: #171a21;
+}
+
+aside a {
+    color: white;
+}
+
+aside img, aside ul {
+    padding: 0;
+    width: 100%;
+}
+
+aside li {
+    display: block;
+    text-align: center;
+    padding: 0.35em 0;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left:-0.05em;
+    margin-bottom: 0.95em;
+    color: #ebebeb;
+}
+
+section {
+    margin: 0 5%;
+}
+
+section blockquote {
+    padding:0.75em;
+    margin-left:-0.1em;
+    margin-top: 1.45em;
+    margin-bottom: 1.95em;
+    line-height: 130%;
+    width: 60%;
+    font-size: small;
+    background-color: #171a21;
+    color: #b8b6b4;
+    border-top: 1px solid rgba(85, 125, 171, 0.6)
+}
+
+p small {
+    font-size: 0.85em;
+    margin-top: 1.2em;
+    padding: 0;
+    color: #b8b6b4;
+}
+
+hr {
+    width: 90%;
+    margin: 0 5%;
+    border-width:0;
+    height: 1px;
+    color:rgba(85, 125, 171, 0.6);
+    background-color:rgba(85, 125, 171, 0.6);
+}
+
+h3 {
+    color: #ebebeb;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: normal;
+    color: #ebebeb;
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+
+}
+
+h4 small {
+    color: #56707f;
+    font-size: small;
+}
+
+h1 {
+    margin: 0.5em 2.5em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1em;
+    line-height: 125%;
+    margin-top: 1.1em;
+}
+
+#litop{
+    margin-top: 1.05em;
+}
+
+#libottom{
+    margin-bottom: 1.05em;
+}
+
+#pbottom{
+    margin-bottom: 0.9em;
+}
+
+section ul{
+    margin-top: 1.2em;
+    margin-left: 2.5em;
+    margin-bottom: 1.4em;
+}
+
